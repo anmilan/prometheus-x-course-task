@@ -15,7 +15,7 @@ function App() {
   const [data, setData] = useState([]);
 
   const fetchData = async () => {
-    await fetch("./books.json")
+    await fetch("../books.json")
       .then((result) => result.json())
       .then((json) => {
         setData(json.books);
