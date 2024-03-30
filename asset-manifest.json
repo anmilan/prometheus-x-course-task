@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/prometheus-x-course-task/static/css/main.faebdf0d.css",
+    "main.js": "/prometheus-x-course-task/static/js/main.06b1caed.js",
+    "index.html": "/prometheus-x-course-task/index.html",
+    "main.faebdf0d.css.map": "/prometheus-x-course-task/static/css/main.faebdf0d.css.map",
+    "main.06b1caed.js.map": "/prometheus-x-course-task/static/js/main.06b1caed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.faebdf0d.css",
+    "static/js/main.06b1caed.js"
+  ]
+}
