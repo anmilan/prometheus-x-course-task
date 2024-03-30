@@ -31,11 +31,11 @@ function App() {
       <BooksProvider value={data}>
         <div className="wrapper">
           <Routes>
-            <Route path="/" element={<SignIn />} />
-            <Route path="/books" element={<BooksPage />} />
-            <Route path="/books/:id" element={<SpecificBook />} />
-            <Route path="/cart" element={<Cart />} />
-            <Route path="*" element={<PageNotFound />} />
+            <Route path="prometheus-x-course-task/" element={<SignIn />} />
+            <Route path="prometheus-x-course-task/books" element={<BooksPage />} />
+            <Route path="prometheus-x-course-task/books/:id" element={<SpecificBook />} />
+            <Route path="prometheus-x-course-task/cart" element={<Cart />} />
+            <Route path="prometheus-x-course-task/*" element={<PageNotFound />} />
           </Routes>
         </div>
       </BooksProvider>
