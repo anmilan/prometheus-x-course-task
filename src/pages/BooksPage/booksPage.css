@@ -1,0 +1,51 @@
+.books-content {
+    align-items: start;
+}
+
+.books {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.books__filters {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.books__filters-name {
+    padding-right: 30px;
+    display: flex;
+}
+
+.by-name,
+.btn-by-name,
+.by-price {
+    height: 50px;
+    outline: none;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 1.1rem;
+}
+
+.by-name {
+    width: 300px;
+}
+
+.btn-by-name {
+    background-color: #fab397;
+}
+
+.btn-by-name:hover {
+    background-color: #faf0cd;
+    cursor: pointer;
+}
+
+.by-price {
+    cursor: pointer;
+}

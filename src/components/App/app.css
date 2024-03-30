@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, #faf0cd, #fab397)
+}
+
+main {
+    flex: 1 1 auto;
+}
+
+.container {
+    max-width: 70%;
+    margin: 0 auto;
+}

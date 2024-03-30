@@ -1,0 +1,12 @@
+.message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.message-text {
+    font-size: xx-large;
+    font-weight: 700;
+    color: darkslategrey;
+}
