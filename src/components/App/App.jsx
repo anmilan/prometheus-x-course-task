@@ -32,9 +32,9 @@ function App() {
         <div className="wrapper">
           <Routes>
             <Route path="/" element={<SignIn />} />
-            <Route path="/books" element={<BooksPage />} />
-            <Route path="/books/:id" element={<SpecificBook />} />
-            <Route path="/cart" element={<Cart />} />
+            <Route path="books" element={<BooksPage />} />
+            <Route path="books/:id" element={<SpecificBook />} />
+            <Route path="cart" element={<Cart />} />
             <Route path="*" element={<PageNotFound />} />
           </Routes>
         </div>
